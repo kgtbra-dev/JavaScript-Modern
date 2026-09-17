@@ -3,9 +3,9 @@ const produto = {
   preco: 80
 };
 
-const {nome, peco} = produto;
+const {nome, preco} = produto;
 const mostrarproduto = (nome, preco) => { 
     return console.log(`Produto: ${nome} - R$ ${preco}`)
 };
 
-mostrarproduto(nome, preco);
+mostrarproduto(produto.nome, produto.preco);

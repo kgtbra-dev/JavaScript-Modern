@@ -7,4 +7,4 @@ const mostrarproduto = (nome, preco) => {
     return console.log(`Produto: ${nome} - R$ ${preco}`)
 };
 
-mostrarproduto(nome, preco);
+mostrarproduto(produto.nome, produto.preco);
